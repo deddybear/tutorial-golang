@@ -35,6 +35,7 @@ func listPet(fname, lname string, ages, sexx int, life bool) (firstName, lastNam
 	return
 }
 
+//variadic function
 func sumAll(numbers ...int) int {
 	total := 0
 	for _, value := range numbers {
